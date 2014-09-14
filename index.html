@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script type='text/javascript' src='dpd.js'></script>
+<meta charset="utf-8">
+<link href="style/headers.css" rel="stylesheet" type="text/css">
+<link href="style/buttons.css" rel="stylesheet" type="text/css">
+<link href="style/input_areas.css" rel="stylesheet" type="text/css">
+
+<link href="dpd.css" rel="stylesheet" type="text/css">
+
+
+
+<section class="skin-dark" role="region">
+  <header>
+    <h1>Panhispánico de Dudas</h1>
+  </header>
+  <header>
+<h2>
+<form method="get" action="http://lema.rae.es/dpd/srv/search"
+      target="result"
+      id="formu"
+      role="search"
+      accept-charset="UTF-8">
+
+<input type="text" name="key" id="key" placeholder="Buscar sin acentos.." required=""/>
+
+
+</form>
+</h2>
+  </header>
+</section>
+
+<br><br>
+ <iframe name="result" frameborder="0"  height="300px" seamless></iframe>
+
+
+
+
+
+</html>
