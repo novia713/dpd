@@ -1,0 +1,19 @@
+{
+  "version": "0.1",
+  "name": "Diccionario Panhispánico de Dudas",
+  "description": "Consulta términos en el Diccionario Panhispánico de Dudas",
+  "launch_path": "/index.html",
+  "icons": {
+    "30":  "/icons/30.png",
+    "60":  "/icons/60.png",
+    "90":  "/icons/90.png",
+    "128": "/icons/128.png"
+  },
+  "developer": {
+    "name": "Leandro",
+    "url": "http://leandro.org"
+  },
+  "default_locale": "es",
+  "installs_allowed_from": ["*"]
+}
+
